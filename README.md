@@ -1,26 +1,24 @@
-# 🧹 Data Cleaning in SQL - Nashville Housing Dataset
+# 🧹 SQL Data Cleaning - Nashville Housing
 
-This project demonstrates a complete **Data Cleaning** process using **SQL** queries. The main goal is to transform raw real estate data from Nashville into a clean, structured format ready for advanced analysis or Machine Learning models.
+In this project, I worked to clean, structure, and optimize a raw real estate dataset using SQL, transforming messy records into analysis ready data.
 
----
+## 📊 Dataset Info
+* **Source:** Nashville Housing Data (`nashville housing data.csv`)
+* **Rows:** 31,171 (reduced to 31,121 after deduplication)
 
-## 🛠️ Technologies & Tools
-* **Language:** SQL (Compatible with MySQL / syntax adapted)
-* **Platform:** GitHub (Version control and documentation)
-* **Concepts Applied:** 
-  * Handling null values using self-joins and `COALESCE` functions.
-  * Text string manipulation (`SUBSTRING`, `LOCATE`, `SUBSTRING_INDEX`).
-  * Updating records with `CASE WHEN`.
-  * Identifying and removing duplicate records using CTEs (Common Table Expressions) and window functions (`ROW_NUMBER()`).
-  * Database optimization by dropping redundant or unused columns.
-
----
+## 🛠️ Key SQL Tools & Techniques
+* **NULL Handling:** `SELF JOIN`, `COALESCE()`
+* **String Manipulation:** `SUBSTRING()`, `LOCATE()`, `SUBSTRING_INDEX()`
+* **Conditional Logic:** `CASE WHEN`
+* **Advanced Queries:** CTEs (`WITH`), Window Functions (`ROW_NUMBER()`)
+* **Schema Updates:** `ALTER TABLE` (`ADD`/`DROP COLUMN`), `UPDATE`, `DELETE`
 
 ## 📂 Project Structure
-
 ```text
-├── SQL_nashville_housing_cleaning.sql    # Main script with all queries
-└── assets/                               # Folder containing result screenshots
+├── Data cleaning_Nashville housing data.sql    # Main SQL script
+├── nashville housing data.csv                  # Raw dataset file
+├── Nashville Housing Data without null.csv.    # Without null dataset file
+└── assets/                                     # Folder containing result screenshots
     ├── SQL_nashville_image_1.png
     ├── SQL_nashville_image_2.png
     ├── SQL_nashville_image_3.png
