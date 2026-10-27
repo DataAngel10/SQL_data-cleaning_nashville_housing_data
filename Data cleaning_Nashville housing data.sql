@@ -5,7 +5,7 @@ Select *
 from`nashville housing data`;
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_1.png
+-- https://github.com/DataAngel10/SQL_data-cleaning_nashville_housing_data/blob/main/SQL_nashville_image_1.png
 -- 31171 row(s) returned
 
 
@@ -16,7 +16,7 @@ FROM `nashville housing data`
 Order by ParcelID;
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_2.png
+-- https://github.com/DataAngel10/SQL_data-cleaning_nashville_housing_data/blob/main/SQL_nashville_image_2.png
 
 
 
@@ -38,7 +38,7 @@ JOIN `nashville housing data` b
 WHERE a.PropertyAddress IS NULL;
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_3.png
+-- https://github.com/DataAngel10/SQL_data-cleaning_nashville_housing_data/blob/main/SQL_nashville_image_3.png
 
 
 
@@ -60,7 +60,7 @@ Select PropertyAddress
 From `nashville housing data`;
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_4.png
+-- https://github.com/DataAngel10/SQL_data-cleaning_nashville_housing_data/blob/main/SQL_nashville_image_4.png
 
 
 
@@ -78,7 +78,7 @@ SELECT
 FROM `nashville housing data`;
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_5.png
+-- https://github.com/DataAngel10/SQL_data-cleaning_nashville_housing_data/blob/main/SQL_nashville_image_5.png
 
 
 
@@ -108,7 +108,7 @@ Select *
 From `nashville housing data`;
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_6.png
+-- https://github.com/DataAngel10/SQL_data-cleaning_nashville_housing_data/blob/main/SQL_nashville_image_6.png
 
 
 
@@ -120,7 +120,7 @@ Select OwnerAddress
 From `nashville housing data`;
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_7.png
+-- https://github.com/DataAngel10/SQL_data-cleaning_nashville_housing_data/blob/main/SQL_nashville_image_7.png
 
 
 
@@ -141,7 +141,7 @@ FROM `nashville housing data`;
 
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_8.png
+-- https://github.com/DataAngel10/SQL_data-cleaning_nashville_housing_data/blob/main/SQL_nashville_image_8.png
 
 
 
@@ -181,7 +181,7 @@ Select *
 from `nashville housing data`;
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_9.png
+-- https://github.com/DataAngel10/SQL_data-cleaning_nashville_housing_data/blob/main/SQL_nashville_image_9.png
 
 
 
@@ -197,7 +197,7 @@ Group by SoldAsVacant
 order by 2;
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_10.png
+-- https://github.com/DataAngel10/SQL_data-cleaning_nashville_housing_data/blob/main/SQL_nashville_image_10.png
 
 
 
@@ -212,7 +212,7 @@ SELECT
 FROM `nashville housing data`;
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_11.png
+-- https://github.com/DataAngel10/SQL_data-cleaning_nashville_housing_data/blob/main/SQL_nashville_image_11.png
 
 
 
@@ -250,7 +250,7 @@ Where row_num > 1
 ORDER BY PropertyAddress;
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_12.png
+-- https://github.com/DataAngel10/SQL_data-cleaning_nashville_housing_data/blob/main/SQL_nashville_image_12.png
     
 
 
