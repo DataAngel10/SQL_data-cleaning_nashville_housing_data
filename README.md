@@ -6,7 +6,7 @@ In this project, I worked to clean, structure, and optimize a raw real estate da
 * **Source:** Nashville Housing Data (`nashville housing data.csv`)
 * **Rows:** 31,171 (reduced to 31,121 after deduplication)
 
-## 🛠️ Key SQL Tools & Techniques
+## 🛠️ SQL Tools & Techniques
 * **NULL Handling:** `SELF JOIN`, `COALESCE()`
 * **String Manipulation:** `SUBSTRING()`, `LOCATE()`, `SUBSTRING_INDEX()`
 * **Conditional Logic:** `CASE WHEN`
